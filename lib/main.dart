@@ -105,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     CallEvent callEvent = CallEvent(
       sessionId: uuid.v1(),
-      callType: 2,
+      callType: 0,
       callerId: Random().nextInt(1000000),
       callerName: 'Fake Caller',
       opponentsIds: {

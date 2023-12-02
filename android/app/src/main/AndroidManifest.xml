@@ -15,6 +15,9 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
+            <meta-data
+                android:name="com.connectycube.flutter.connectycube_flutter_call_kit.app_notification_icon"
+                android:resource="@drawable/ic_notification" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -23,8 +26,5 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-        <meta-data
-            android:name="com.connectycube.flutter.connectycube_flutter_call_kit.app_notification_icon"
-            android:resource="@drawable/ic_notification" />
     </application>
 </manifest>
